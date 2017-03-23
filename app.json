@@ -1,0 +1,18 @@
+{
+  "name": "Hull Webhooks Connector",
+  "description": "Sends Hull User changes as Webhooks.",
+  "repository": "https://github.com/hull-ships/hull-webhooks",
+  "website": "http://www.hull.io",
+  "success_url": "/readme",
+  "env": {
+    "SECRET" : {
+      "description" : "A Secret key used to sign tokens",
+      "generator" : "secret"
+    },
+    "LOG_LEVEL" : {
+      "description" : "Logging level (emerg, alert, crit, error, warning, notice, info, debug)",
+      "value": "info"
+    }
+  },
+  "scripts": {}
+}
