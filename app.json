@@ -1,7 +1,7 @@
 {
-  "name": "Hull Webhooks Connector",
-  "description": "Sends Hull User changes as Webhooks.",
-  "repository": "https://github.com/hull-ships/hull-webhooks",
+  "name": "Hull Madkudu Connector",
+  "description": "Sends Hull User changes to Madkudu.",
+  "repository": "https://github.com/hull-ships/hull-madkudu",
   "website": "http://www.hull.io",
   "success_url": "/readme",
   "env": {
