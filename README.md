@@ -1,13 +1,14 @@
-# Hull Webhooks Ship.
-Sends Hull Users as Webhooks
+# Hull MadKudu connector
 
-If you want your own instance: [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/hull-ships/hull-webhooks)
+Sends Hull user updates to MadKudu
+
+If you want your own instance: [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MadKudu/hull-madkudu)
 
 ---
 
 ### Using :
 
-[See Readme here](https://dashboard.hullapp.io/readme?url=https://hull-webhooks.herokuapp.com)
+[See Readme here](https://dashboard.hullapp.io/readme?url=https://hull-madkudu.herokuapp.com)
 
 ### Developing :
 

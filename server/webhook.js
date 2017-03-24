@@ -1,10 +1,14 @@
 import axios from 'axios';
 
-export default function webhook({ madkudu_key= "", hull, payload = {} }) {
+export default function webhook({ hull, payload = {}, api_key = "" }) {
   return axios({
     method: "post",
     url: "https://api.madkudu.com/v1/segment",
-    data: payload
+    data: payload,
+    auth: {
+      username: api_key,
+      password: ''
+    }
   })
   .then(
     ({ data, status, statusText }) => hull.logger.info('madkudu.success', {
@@ -21,5 +25,5 @@ export default function webhook({ madkudu_key= "", hull, payload = {} }) {
       // Something happened in setting up the request that triggered an Error
       hull.logger.error('madkudu.error', { message: msg });
     }
-  })
+  });
 }

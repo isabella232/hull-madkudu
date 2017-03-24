@@ -4,15 +4,16 @@
   "tags": ["outgoing", "oneColumn", "batch"],
   "picture": "picture.png",
   "version": "0.1.0",
-  "private_settings":[
+  "settings":[
     {
-      "name": "madkudu_key",
-      "title": "MadKudu Key",
-      "default": "",
+      "name": "api_key",
+      "title": "MadKudu API Key",
+      "default": "Your MadKudu API Key. Found in Integrations > API",
       "type": "string",
-      "format": "title"
+      "format": "text"
     }
   ],
+  "private_settings": [],
   "deployment_settings": [],
   "resources": [],
   "readme": "readme.md",

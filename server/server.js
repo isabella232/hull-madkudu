@@ -4,7 +4,6 @@ import { notifHandler, batchHandler } from "hull/lib/utils";
 import updateUser from "./update-user";
 
 module.exports = function Server(app) {
-
   app.use('/notify', notifHandler({
     userHandlerOptions: {
       groupTraits: true

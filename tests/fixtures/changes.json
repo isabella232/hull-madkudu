@@ -1,10 +1,29 @@
 {
-  "user": {
-    "last_seen_at": [
-      "2016-06-25T09:22:05Z",
-      "2016-06-25T09:24:28Z"
+  "is_new": false,
+  "segments": {
+    "entered": [
+      null
+    ],
+    "left": [
+      null
     ]
   },
-  "segments": {},
-  "is_new": false
+  "user": {
+    "THOSE_ARE_FOR_PREVIEW_ONLY": [
+      null,
+      "fake_values"
+    ],
+    "_index": [
+      null,
+      "organization_2b7a5c30_user_reports_v2_20170324155600966"
+    ],
+    "first_session_started_at": [
+      null,
+      "2017-03-24T17:26:10Z"
+    ],
+    "signup_session_started_at": [
+      null,
+      "2017-03-24T17:26:10Z"
+    ]
+  }
 }
