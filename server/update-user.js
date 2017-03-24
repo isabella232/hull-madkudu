@@ -23,7 +23,7 @@ export default function updateUser({ metric, ship, client, isBatch = false }, me
 
   identify.api_key = api_key;
 
-  webhook({ hull, identify, api_key });
+  webhook({ hull, payload: identify, api_key });
 
   return false;
 }

@@ -12,7 +12,7 @@ export default function webhook({ hull, payload = {}, api_key = "" }) {
   })
   .then(
     ({ data, status, statusText }) => hull.logger.info('madkudu.success', {
-      userId: payload.user.id,
+      userId: payload.userId,
       status,
       statusText,
       data
