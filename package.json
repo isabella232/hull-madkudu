@@ -1,8 +1,8 @@
 {
-  "name": "hull-webhooks",
-  "description": "Send Hull user updates as webhooks",
-  "version": "0.2.1",
-  "homepage": "https://github.com/hull-ships/hull-webhooks",
+  "name": "hull-madkudu",
+  "description": "Send Hull user updates to MadKudu",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MadKudu/hull-madkudu",
   "license": "MIT",
   "main": "bin/start",
   "author": {
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hull-ships/hull-webhooks"
+    "url": "git://github.com/hull-ships/hull-madkudu"
   },
   "bugs": {
-    "url": "https://github.com/hull-ships/hull-webhooks/issues"
+    "url": "https://github.com/hull-ships/hull-madkudu/issues"
   },
   "scripts": {
-    "ngrok": "ngrok http 8082 --region eu --subdomain webhooks",
+    "ngrok": "ngrok http 8082 --region eu --subdomain madkudu",
     "build": "npm run clean && npm run build:server",
     "build:server": "./node_modules/.bin/babel server -d lib",
     "start": "node ./lib",
@@ -39,7 +39,7 @@
     "hull",
     "ship",
     "hull-ship",
-    "webhooks",
+    "madkudu",
     "integration",
     "user",
     "sync"

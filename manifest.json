@@ -1,19 +1,16 @@
 {
   "name": "Webhooks",
-  "description": "Send Hull Users updates as Webhooks",
+  "description": "Send Hull Users updates to MadKudu",
   "tags": ["outgoing", "oneColumn", "batch"],
   "picture": "picture.png",
-  "version": "0.2.1",
+  "version": "0.1.0",
   "private_settings":[
     {
-      "name": "webhooks_urls",
-      "title": "Webhooks URLs",
-      "default": ["https://example.com.com/webhooks/"],
-      "type": "array",
-      "format": "table",
-      "items": {
-        "type": "string"
-      }
+      "name": "madkudu_webhooks_url",
+      "title": "MadKudu Webhooks URL",
+      "default": ["https://hooks.madkudu.com/hooks/catch/3330/8fsnIws"],
+      "type": "string",
+      "format": "title"
     },
     {
       "name": "synchronized_segments",
@@ -23,14 +20,6 @@
       "type": "array",
       "format": "segment"
     },
-
-    {
-      "name": "webhooks_header",
-      "title": "Send conditions",
-      "type": "string",
-      "format": "title"
-    },
-
     {
       "name": "webhooks_segments",
       "title": "Send User when Segments changes",
